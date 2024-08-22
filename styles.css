@@ -1,0 +1,38 @@
+body {
+    color: rgb(10, 10, 10);
+    background: rgb(245, 5, 145);
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(231, 19, 203);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(250, 251, 252);
+}
+
+section {
+    background: rgb(214, 4, 144);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+img {
+    height: 200px;
+  }
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  /* código omitido */
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
